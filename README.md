@@ -15,14 +15,15 @@ otherwise it will sendNACK signal to client.
 6. Stop the program
 
 ## PROGRAM :
-```
-Developed by : PRIYANKA.A
-Register Number : 212222230113
+
 from scapy.all import*
+
 target = ["www.google.com"]
+
 result, unans = traceroute(target,maxttl=32)
+
 print(result,unans)
-```
+
 ## OUTPUT :
 ![](./1.png)
 
